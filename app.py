@@ -3,6 +3,7 @@ import json
 import logging
 from components import bd
 from aiogram import Bot, Dispatcher, types
+from aiogram.types import FSInputFile
 from aiogram.filters.command import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram import F
@@ -87,8 +88,8 @@ async def wrong_answer(callback: types.CallbackQuery):
 async def cmd_start(message: types.Message):
     builder = ReplyKeyboardBuilder()
     builder.add(types.KeyboardButton(text="Начать игру"))
-    await message.answer("Добро пожаловать в квиз!", reply_markup=builder.as_markup(resize_keyboard=True))
-
+    photo = FSInputFile("/var/Quiz_Bot/source/image.png") 
+    await bot.send_photo(message.from_user.id, photo=photo,caption="Добро пожаловать в квиз!", reply_markup=builder.as_markup(resize_keyboard=True))
 
 async def get_question(message, user_id):
 
