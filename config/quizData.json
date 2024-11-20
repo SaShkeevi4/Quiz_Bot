@@ -9,43 +9,43 @@
     "correct_option": 0
 },
 {
-    "question": "Какой тип данных используется для хранения целых чисел?",
+    "question": "С помощью какой функции можно вывести текст?",
+    "options": ["print", "input"],
+    "correct_option": 1
+},
+{
+    "question": "С помощью какой функции можно преобразовать объект в целое число?",
     "options": ["int", "float", "str", "natural"],
     "correct_option": 0
 },
 {
-    "question": "Какой тип данных используется для хранения целых чисел?",
-    "options": ["int", "float", "str", "natural"],
+    "question": "Какое слово используется для обозначения логического «И»?",
+    "options": ["or", "float", "and", "natural"],
+    "correct_option": 2
+},
+{
+    "question": "Какое слово используется для обозначения логического «Или»?",
+    "options": ["int", "or", "and", "natural"],
+    "correct_option": 1
+},
+{
+    "question": "Какое слово необходимо в записи условия?",
+    "options": ["int", "not", "str", "if"],
+    "correct_option": 3
+},
+{
+    "question": "Какая команда позволяет прекратить цикл?",
+    "options": ["int", "break", "str", "continue"],
+    "correct_option": 1
+},
+{
+    "question": "Как обозначается возведение в степень?",
+    "options": ["**", "float", "^", "natural"],
     "correct_option": 0
 },
 {
-    "question": "Какой тип данных используется для хранения целых чисел?",
-    "options": ["int", "float", "str", "natural"],
-    "correct_option": 0
-},
-{
-    "question": "Какой тип данных используется для хранения целых чисел?",
-    "options": ["int", "float", "str", "natural"],
-    "correct_option": 0
-},
-{
-    "question": "Какой тип данных используется для хранения целых чисел?",
-    "options": ["int", "float", "str", "natural"],
-    "correct_option": 0
-},
-{
-    "question": "Какой тип данных используется для хранения целых чисел?",
-    "options": ["int", "float", "str", "natural"],
-    "correct_option": 0
-},
-{
-    "question": "Какой тип данных используется для хранения целых чисел?",
-    "options": ["int", "float", "str", "natural"],
-    "correct_option": 0
-},
-{
-    "question": "Какой тип данных используется для хранения целых чисел?",
-    "options": ["int", "float", "str", "natural"],
-    "correct_option": 0
+    "question": "Метод , который позволяет добавлять элементы в конец списка?",
+    "options": ["int", "float", "insert", "append"],
+    "correct_option": 3
 }
 ]
